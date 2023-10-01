@@ -1,0 +1,76 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}S
+
+.clear {
+	clear: both;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+/******************************************S
+/* BASE STYLES
+/*******************************************/
+
+body {
+  text-align: center;
+}
+
+.fullcalc{
+  width: 35%;
+  border: 2px solid forestgreen;
+  margin: 0px 33%;
+  background-color: lightgreen;
+}
+
+.fullcalc button{
+  width: 15%;
+  margin: 2px 1%;
+}
+
+.fullcalc input{
+  width: 20%;
+  margin: 15px 1%;
+}
+
+.fullcalc input, .fullcalc button{
+  font-size: 2rem;
+}
+
+h2{
+  color:rgb(25, 97, 25);
+  font-size: 2.2rem;
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
